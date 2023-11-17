@@ -54,9 +54,8 @@ Take a String, integer, char, double input from user and print it.
 void main()
 {
     // variable declaration
-    char string[100];
+    char string[100], character;
     int integer;
-    char character;
     double doubleNumber;
 
     // take string input
@@ -69,7 +68,7 @@ void main()
 
     // take character input
     printf("Input Character: ");
-    scanf("%c", &character);
+    scanf("%s", &character);
 
     // take double input
     printf("Input Double: ");
@@ -87,12 +86,12 @@ Output:
 ```
 Input String: taskphase
 Input Integer: 5
-Input Character: Input Double: 6.542
-Inputted String: taskphase
+Input Character: a
+Input Double: 3.1428
+Inputted String: 
 Inputted Integer: 5
-Inputted Character:
-
-Inputted Double: 6.542000
+Inputted Character: a
+Inputted Double: 3.142800
 ```
 ---
 
