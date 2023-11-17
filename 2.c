@@ -4,9 +4,8 @@
 void main()
 {
     // variable declaration
-    char string[100];
+    char string[100], character;
     int integer;
-    char character;
     double doubleNumber;
 
     // take string input
@@ -19,7 +18,7 @@ void main()
 
     // take character input
     printf("Input Character: ");
-    scanf("%c", &character);
+    scanf("%s", &character);
 
     // take double input
     printf("Input Double: ");
